@@ -30,6 +30,11 @@ Lineas 11 se inserta este contenido para habilitar los metodos POST y GET:
 
 #### CurrencyConverter.amxm.cs
 
+Linea 19 insertamos el siguiente atributo:
+```c#
+    [System.Web.Script.Services.ScriptService]
+```
+
 Linea 25 el WebMothod se cambia a tipos VOID
 
 Linea 44 Se implementa una lista generica para gestion del JSON mas adelante
